@@ -142,4 +142,4 @@ describe('User Model', () => {
     const gravatar = user.gravatar();
     expect(gravatar.includes(md5)).to.equal(true);
   });
-
+});
